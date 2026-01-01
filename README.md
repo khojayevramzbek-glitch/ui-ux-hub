@@ -2,20 +2,15 @@
 
 Personal UI/UX & Frontend showcase by **Ramzbek**.
 
-This repository contains:
-- UI / UX design experiments
+This repository contains handcrafted UI/UX and frontend experiments, built manually
+without using Lovable or AI-based generators.
+
+## ✨ What’s inside
+- UI/UX design experiments
 - Frontend components
 - Landing pages
 - Micro-interactions
 - Visual concepts
-
-## 🚀 Projects
-Each folder represents a separate UI/UX or frontend project.
-
-- Modern landing pages
-- Dashboard UI
-- Portfolio layouts
-- Component libraries
 
 ## 🛠 Tech Stack
 - HTML / CSS
@@ -24,11 +19,11 @@ Each folder represents a separate UI/UX or frontend project.
 - React
 - Vite
 
-## 🌐 Live Demos
-Live previews are linked inside each project folder.
+## 🎯 Purpose
+A personal hub for learning, experimentation, and showcasing UI/UX & frontend skills.
 
 ## 👤 Author
 **Ramzbek**  
 Frontend Developer & UI/UX Enthusiast
 
-> This repository is fully handcrafted and maintained manually.
+> This project is fully handcrafted and maintained manually.

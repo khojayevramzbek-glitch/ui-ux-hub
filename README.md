@@ -5,7 +5,7 @@
 ### Complete Interactive Design & Frontend Engineering Platform
 
 [![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Visit_Platform-7c3aed?style=for-the-badge&logo=google-chrome&logoColor=white)](https://khojayevramzbek-glitch.github.io/ui-ux-hub/)
-[![GitHub Release](https://img.shields.io/badge/Release-v1.0.0-10b981?style=for-the-badge)](https://github.com/khojayevramzbek-glitch/ui-ux-hub/releases/tag/v1.0.0)
+[![GitHub Release](https://img.shields.io/badge/Release-v2.0.0-10b981?style=for-the-badge)](https://github.com/khojayevramzbek-glitch/ui-ux-hub/releases/tag/v2.0.0)
 [![React](https://img.shields.io/badge/React_18-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38BDF8?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
@@ -13,7 +13,7 @@
 
 <p align="center">
   <b>A comprehensive, modern interactive knowledge hub for mastering the art and science of UI/UX design.</b><br/>
-  From fundamental human-computer interaction theory to pixel-perfect production code.
+  Featuring live component sandboxes, WCAG accessibility labs, cognitive UX simulators, and production code generators.
 </p>
 
 [Explore Live Web App ↗](https://khojayevramzbek-glitch.github.io/ui-ux-hub/) • [Report Bug](https://github.com/khojayevramzbek-glitch/ui-ux-hub/issues) • [Author Portfolio](https://khojayevramzbek-glitch.github.io/portfolio/)
@@ -28,16 +28,16 @@
 
 ---
 
-## 🚀 Key Modules & Features
+## 🚀 Key Modules & Interactive Laboratories
 
 | Module | Highlights & Content |
 |---|---|
-| 🧠 **What is UI vs UX?** | In-depth breakdown comparing Visual Aesthetics (UI) with User Psychology, Usability & Satisfaction (UX). |
-| 📐 **Core Design Principles** | 8 foundational rules: *Visual Hierarchy, Consistency, Accessibility (a11y), Feedback, Contrast, Usability, Gestalt Laws*. |
-| 🛠 **Interactive Toolkit** | Categorized overview of industry tools across Design (*Figma, Adobe XD, Sketch*), Frontend Code (*React, Tailwind CSS, Vite*), Testing & Collaboration. |
-| 🔄 **The 6-Stage UX Process** | Step-by-step roadmap: `01 Research` ➔ `02 Wireframing` ➔ `03 Visual Design` ➔ `04 Prototyping` ➔ `05 Testing` ➔ `06 Launch & Handoff`. |
-| 📚 **Curated Resources** | Handpicked design books (*Don't Make Me Think, The Design of Everyday Things, Refactoring UI*), top certification courses, and design systems. |
-| 📱 **Mobile & Dark First** | Fully responsive layout with fluid glassmorphism, floating blur orbs, micro-interactions, and accessibility support. |
+| 🧪 **Live Component Sandbox** | Real-time interactive playground for Buttons, Cards, Inputs & Badges. Configure corner radius, shadow elevation, and atmospheric glows, then copy the generated React JSX & Tailwind classes. |
+| 🛡 **WCAG 2.1 Contrast Checker** | Mathematical relative luminance calculator testing color pairs against WCAG AA & AAA standards. Includes colorblindness simulation filters (Protanopia, Deuteranopia, Tritanopia). |
+| 🧠 **Cognitive UX Laws Simulators** | Real-time reaction latency experiments testing Fitts's Law (target size/distance), Hick's Law (choice overload), Miller's Law (7±2 chunking), and Jakob's Law (mental models). |
+| 📐 **Figma-to-Tailwind Cheat Sheet** | Instant search engine converting Figma inspector parameters (Auto Layout, radius, drop shadows, opacity) into exact utility classes with 1-click copy. |
+| 🏆 **UI/UX IQ Challenge** | Interactive design decision quiz testing intuition on mobile thumb-zones, inline validation timing, destructive defensive flows, and dark mode contrast. |
+| 📚 **Fundamental Curriculum** | In-depth breakdown comparing Visual Aesthetics (UI) with User Experience (UX), 8 Core Design Principles, and a 6-Stage Product Lifecycle. |
 
 ---
 
@@ -88,10 +88,15 @@ ui-ux-hub/
 ├── .github/
 │   └── workflows/
 │       └── deploy.yml        # Automated GitHub Pages CI/CD
-├── public/                   # Static assets & icons
+├── public/                   # Static assets & custom UX favicon
 ├── src/
 │   ├── components/
 │   │   ├── ui/               # Radix UI + Shadcn primitives
+│   │   ├── ComponentPlayground.tsx # Live sandbox & code exporter
+│   │   ├── ContrastChecker.tsx     # WCAG 2.1 accessibility lab
+│   │   ├── UXLawsSimulator.tsx     # Fitts & Hick reaction experiments
+│   │   ├── FigmaToCode.tsx         # Figma to Tailwind search sheet
+│   │   ├── UIQuiz.tsx              # Interactive UI/UX assessment challenge
 │   │   ├── HeroSection.tsx   # Landing hero with animated gradient orbs
 │   │   ├── WhatIsUIUX.tsx    # Interactive comparison module
 │   │   ├── PrinciplesSection.tsx # 8 Fundamental UX laws

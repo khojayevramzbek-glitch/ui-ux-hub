@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import Navigation from "@/components/Navigation";
 import HeroSection from "@/components/HeroSection";
 import WhatIsUIUX from "@/components/WhatIsUIUX";
@@ -8,6 +9,10 @@ import ResourcesSection from "@/components/ResourcesSection";
 import Footer from "@/components/Footer";
 
 const Index = () => {
+  useEffect(() => {
+    document.title = "UI/UX Hub — Master the Art of Design";
+  }, []);
+
   return (
     <main className="min-h-screen">
       <Navigation />
